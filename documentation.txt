@@ -1,0 +1,16 @@
+Pre requisite :
+* Node JS & NPM
+* Angular CLI
+
+Developing Blog Using Angular
+ -> Features of Blog :
+    * Add Blog
+    * Display Updated Blogs
+
+1. Generate angular project with routing
+2. Integrate bootstrap into project(ng-bootstrap js, bootstrap css)
+3. Create home and add blog components
+4. Make header UI for application
+5. Take inputs & store data in localStorage
+6. Display data from local storage in home page
+7. Add, Delete functionality in home page

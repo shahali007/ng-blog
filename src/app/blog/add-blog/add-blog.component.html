@@ -1,0 +1,26 @@
+<div class="bg-purple py-5 px-4 text-white text-center">
+    <h4 class="font-weight-light pb-5">Add Blog</h4>
+</div>
+
+<div class="container mt-n5">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <form action="">
+                <div class="shadow p-5 rounded bg-white mt-n3">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" class="form-control form-control-lg" id="title" name="title" #title>
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Content</label>
+                        <textarea class="form-control form-control-lg" id="content" name="content" #content></textarea>
+                    </div>
+                    <div class="form-group mt-4">
+                        <button type="button" (click)="addBlog(title, content)" class="btn bg-dark text-white">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
