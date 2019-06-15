@@ -10,8 +10,11 @@ export class HomeComponent implements OnInit {
     constructor() {
     }
     blogs = [];
+    blog = {};
     ngOnInit() {
         this.blogs = JSON.parse(localStorage.getItem('blogs'));
+        // this.getBlog = JSON.parse(localStorage.getItem(localStorage.key(2)));
+        this.blog = this.blogs[0];
     }
 
 }
